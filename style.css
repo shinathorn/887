@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    color: rgb(166, 166, 234);
+    text-shadow: 3px 2px rgb(47, 121, 134);
+    font-size: 30px;
+}
+
+.content {
+    color: aliceblue;
+    margin-left: 40%;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+body {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/84/521/desktop-wallpaper-minimalism-snow-christmas-snowflakes-minimalist-christmas-ipad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input,textarea,select{
+    border-radius: 20px;
+    margin-left: 55px ;
+}
