@@ -1,77 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page title</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
-    body {background-color : rgb(70, 226, 117);}
-    h1   {color: rgb(17, 17, 161) ;}
-    h1   {text-shadow: 3px 2px rgb(47, 121, 134);}
-    div  {color: rgb(170, 48, 113);text-transform: capitalize; line-height: 1.5;word-spacing: 3px;}
-    p    {border: 3px solid rgb(255, 0, 0) ;}
-    p    {border-style: dashed ;}
+    body {
+        background-color: rgb(151, 244, 179);
+    }
+    div {
+        color: rgb(170, 48, 113);
+        text-transform: capitalize;
+        line-height: 1.5;
+        word-spacing: 3px;
+    }
+
+    p {
+        border: 3px solid rgb(255, 0, 0);
+    }
+
+    p {
+        border-style: dashed;
+    }
 </style>
-<body> 
-    <p><h1>Workshop #HTML - FORM</h1></p>
-    <form>
-    <table>
-        <tr>
-            <td><label for="fname"><b>ชื่อ</b></td>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="lname"><b>สกุล</b></td>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="date"><b>วัน/เดือน/ปีเกิด</b></td>
-            <td><input type="date"></td>
-        </tr>
-        <tr>
-            <td><label for="age"><b>อายุ</b></td>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="sex"><b>เพศ</b></td>
-            <td><input type="radio" value="male" name="sex"> ชาย<input type="radio" value="female" name="sex"> หญิง </td>
-        </tr>
-        <tr>
-            <td><label for="picture"><b>รูป</b></td>
-            <td><input type="file"></td>
-        </tr>
-        <tr>
-            <td><label for="local"><b>ที่อยู่</b></td>
-            <td><textarea name="" id="" cols="22" rows="5"></textarea></td>
-        </tr>
-        <tr>
-            <td><label for="สี"><b>สีที่ชอบ</b></td>
-            <td><SELECT>
-                <OPTION SELECTED>---เลือกสี---
-                <OPTION VALUE=1>สีแดง
-                <OPTION VALUE=2>สีดำ
-                <OPTION VALUE=3>สีขาว
-                <OPTION VALUE=4>สีฟ้า
-                <OPTION VALUE=5>สีเหลือง
-                <OPTION VALUE=6>สีม่วง
-                <OPTION VALUE=7>สีน้ำตาล
-                <OPTION VALUE=8>สีเขียว
-                <OPTION VALUE=9>สีส้ม
-                </SELECT></td>
-        </tr>
-        <tr>
-            <td><label for="song"><b>แนวเพลงที่ชอบ</b></td>
-            <td><b><input type="radio" value="male" name="เพื่อชีวีติ">เพื่อชีวิต<input type="radio" value="female" name="sex">ลูกทุ่ง<input type="radio" value="male" name="อื่นๆ">อื่นๆ</b></td>
-        </tr>
-    </table>
-    <br>
-    <INPUT TYPE="checkbox" NAME="vegetarian" value="yes"> <b>ยินยอมให้เก็บข้อมูล</b>
-        <br><br>
-    <button type="reset">Reset</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp14;
-    <button type="submit">Submit</button>
-    </form>
-    <hr color="red" align="center">
+
+<body>
+    <header>
+        <h1>Workshop #HTML - FORM</h1>
+    </header>
+    <div class="content">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="fname"><b>ชื่อ</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname"><b>สกุล</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="date"><b>วัน/เดือน/ปีเกิด</b></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="age"><b>อายุ</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="sex"><b>เพศ</b></td>
+                    <td><input type="radio" value="male" name="sex"> ชาย<input type="radio" value="female" name="sex">
+                        หญิง
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="picture"><b>รูป</b></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="local"><b>ที่อยู่</b></td>
+                    <td><textarea name="" id="" cols="22" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="สี"><b>สีที่ชอบ</b></td>
+                    <td><SELECT>
+                            <OPTION SELECTED>---เลือกสี---
+                            <OPTION VALUE=1>สีแดง
+                            <OPTION VALUE=2>สีดำ
+                            <OPTION VALUE=3>สีขาว
+                            <OPTION VALUE=4>สีฟ้า
+                            <OPTION VALUE=5>สีเหลือง
+                            <OPTION VALUE=6>สีม่วง
+                            <OPTION VALUE=7>สีน้ำตาล
+                            <OPTION VALUE=8>สีเขียว
+                            <OPTION VALUE=9>สีส้ม
+                        </SELECT></td>
+                </tr>
+                <tr>
+                    <td><label for="song"><b>แนวเพลงที่ชอบ</b></td>
+                    <td><b><input type="radio" value="male" name="เพื่อชีวีติ">เพื่อชีวิต<input type="radio"
+                                value="female" name="sex">ลูกทุ่ง<input type="radio" value="male" name="อื่นๆ">อื่นๆ</b>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <INPUT class="Type" TYPE="checkbox" NAME="vegetarian" value="yes"> <b>ยินยอมให้เก็บข้อมูล</b>
+            <br><br>
+            <button type="reset">Reset</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp14;
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
