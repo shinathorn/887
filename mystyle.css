@@ -1,0 +1,33 @@
+.box{
+    width: 400px;
+    height: 400px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(172, 95, 72);
+    border: 4px dotted rgb(0,255,0);
+    padding-top: 10px;
+    margin: 50px 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-image: url(https://i.pinimg.com/originals/e8/01/3a/e8013a5e122c9f72d17d555b46e5b100.gif);
+    background-position: center;
+    background-size: cover;
+    
+}
+.box:hover{
+    background-color:rgb(118, 11, 82);
+    background-image: url(https://media4.giphy.com/media/3oEduOnl5IHM5NRodO/giphy.gif);
+    
+    background-size: 200% ;
+    box-shadow: 34px 34px 26px #f70303
+}
+body{
+    background-image: url(https://media0.giphy.com/media/ORjfgiG9ZtxcQQwZzv/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: bisque;
+}
