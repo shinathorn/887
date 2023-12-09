@@ -18,6 +18,10 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: rgb(170, 48, 113);
+    text-transform: capitalize;
+    line-height: 1.5;
+    word-spacing: 3px;
 }
 input,textarea,select{
     border-radius: 20px;
