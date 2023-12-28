@@ -15,13 +15,21 @@
         </header>
         <style>
             .scroll {
+                background-image: url(https://i.pinimg.com/originals/f0/47/95/f04795cef907929f142f270c3ab5218a.gif);
                 width: 361px;
                 height: 498px;
                 border: 1px solid black;
                 color: white;
                 overflow: auto;
-                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-family: Georgia, 'Times New Roman', Times, serif;
                 font-size: 20px;
+            }
+
+            body {
+                background-image: url(https://64.media.tumblr.com/a606b8ee6f960875fae7d03c57ef8aff/e304ae7feb788a98-0e/s1280x1920/e9b3bc50db540138f128254bf50c53230693ea18.gif);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
             }
         </style>
         <div class="scroll">
