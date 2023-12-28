@@ -17,15 +17,20 @@ Route::get('/', function () {
     return view('welcome'); // welcome.blade.php
 });
 
-Route::get('/my-route',function(){
+Route::get('/my-route', function () {
     // echo "<h1> My Route Page </h1>";
     // return view('myroute');
-    $data = ['val_a' => 'Hello World!'];
-    $data['val_b'] = "laravel";
-    return view('myfolder.mypage',$data);
+    $data = ['head' => 'Multiplication Table'];
+    return view('myfolder.mypage', $data);
 });
 
-Route::post('/my-route',function(Request $req){
+Route::post('/my-route', function (Request $req) {
     $data['myinput'] = $req->input('myinput');
-    return view('myroute',$data);
+    return view('myroute', $data);
+});
+
+Route::post('/my-page', function (Request $req) {
+    $req->validate(['back' => 'required|string']);
+    $data['back'] = $req->input('back');
+    return view('my-route', $data);
 });
