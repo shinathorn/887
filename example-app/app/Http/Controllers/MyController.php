@@ -12,7 +12,10 @@ class MyController extends Controller
 
     }
     public function index(){
-        return view('myfolder.mypage');
+        return view('home');
     }
     public function store(Request $req){
+        $data['myinput'] = $req->input('myinput');
+        return view ('myroute',$data);
+    }
 }
