@@ -83,7 +83,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-phone"></i></span>
                 </div>
-                <input type="text" class="form-control" placeholder="999-999-9999">
+                <input type="text" class="form-control" placeholder="xxx-xxx-xxxx">
             </div>
             <!-- /.input group -->
         </div>
